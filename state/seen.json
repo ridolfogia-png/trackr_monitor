@@ -1198,5 +1198,93 @@
     "opening": "",
     "closing": "",
     "link": "https://app.the-trackr.com/company/capula-investment-management"
+  },
+  "[\"jll\", \"capital markets intern - london\"]": {
+    "category": "Asset Management",
+    "company": "JLL",
+    "programme": "Capital Markets Intern - London",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/jll"
+  },
+  "[\"ankura\", \"summer internship 2027 turnaround & restructuring\"]": {
+    "category": "Consulting",
+    "company": "Ankura",
+    "programme": "Summer Internship 2027 Turnaround & Restructuring",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/ankura"
+  },
+  "[\"alvarez & marsal\", \"summer intern, corporate finance\"]": {
+    "category": "Consulting",
+    "company": "Alvarez & Marsal",
+    "programme": "Summer Intern, Corporate Finance",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/alvarez-marsal"
+  },
+  "[\"teneo\", \"financial advisory internship 2027\"]": {
+    "category": "Consulting",
+    "company": "Teneo",
+    "programme": "Financial Advisory Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/teneo"
+  },
+  "[\"interpath advisory\", \"intern analyst\"]": {
+    "category": "Consulting",
+    "company": "Interpath Advisory",
+    "programme": "Intern Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/interpath-advisory"
+  },
+  "[\"platinum peak holdings ltd\", \"private equity (m&a) intern\"]": {
+    "category": "Consulting",
+    "company": "Platinum Peak Holdings Ltd",
+    "programme": "Private Equity (M&A) Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/platinum-peak-holdings"
+  },
+  "[\"azets\", \"corporate finance summer intern\"]": {
+    "category": "Accounting and Audit",
+    "company": "Azets",
+    "programme": "Corporate Finance Summer Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/azets"
+  },
+  "[\"private equity insights\", \"global internship program\"]": {
+    "category": "Miscellaneous",
+    "company": "Private Equity Insights",
+    "programme": "Global Internship Program",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/private-equity-insights"
+  },
+  "[\"natrium capital\", \"chemicals m&a research analyst intern\"]": {
+    "category": "Miscellaneous",
+    "company": "Natrium Capital",
+    "programme": "Chemicals M&A Research Analyst Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/natrium-capital"
+  },
+  "[\"waters corporation\", \"m&a and strategic finance, summer intern\"]": {
+    "category": "Miscellaneous",
+    "company": "Waters Corporation",
+    "programme": "M&A and Strategic Finance, Summer Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/waters-corporation"
+  },
+  "[\"general electric\", \"capital markets intern\"]": {
+    "category": "Miscellaneous",
+    "company": "General Electric",
+    "programme": "Capital Markets Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/general-electric"
   }
 }
