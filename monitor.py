@@ -3,12 +3,13 @@
 Trackr UK Summer Internships monitor
 =====================================
 Renders the (JavaScript) Trackr page with a headless browser, reads the
-positions TABLE, compares it against the saved state, and emails you when NEW
-positions appear. Built to run on GitHub Actions (stateless runners): the state
-is committed back to the repository between runs.
+positions TABLE, and emails you when a watched programme OPENS -- i.e. when its
+Opening/Closing date cells go from empty to filled (the signal Trackr uses when
+applications go live, e.g. Blackstone: "15 Jun 26 -> 30 Oct 26").
 
-NO credentials live in this file. Everything sensitive is read from environment
-variables, which on GitHub come from encrypted repository *Secrets*.
+Built for GitHub Actions (stateless runners): the state is committed back to the
+repository between runs. NO credentials live in this file -- everything sensitive
+comes from environment variables (encrypted repository *Secrets* on GitHub).
 
 Environment variables
 ----------------------
@@ -20,8 +21,7 @@ Environment variables
   TRACKR_URL  (optional)  page to watch (default = UK finance summer internships)
   CATEGORIES  (optional)  comma-separated Trackr categories to watch.
                           Default focuses on IB/PE; use "all" to watch every row.
-  TRACKR_DEBUG=1 (optional) discovery mode: print what was parsed and exit,
-                            without sending email or changing state.
+  TRACKR_DEBUG=1 (optional) discovery mode: print what was parsed and exit.
 """
 
 import os
@@ -43,19 +43,26 @@ SEEN_FILE = STATE_DIR / "seen.json"
 HEARTBEAT_FILE = STATE_DIR / "last_check_date.txt"
 DEBUG = os.environ.get("TRACKR_DEBUG") == "1"
 
-# Default = the categories relevant to an IB / PE candidate. Set CATEGORIES="all"
-# (or a custom comma-separated list) to change scope.
+# Categories relevant to an IB / PE candidate. Set CATEGORIES="all" to watch all.
 DEFAULT_CATEGORIES = ["Promoted", "Bulge Bracket", "Elite Boutique", "Middle Market", "Buy-Side"]
 _cat_env = os.environ.get("CATEGORIES", "").strip()
 if _cat_env.lower() == "all":
-    CATEGORIES = None  # no filtering
+    CATEGORIES = None
 elif _cat_env:
     CATEGORIES = [c.strip() for c in _cat_env.split(",") if c.strip()]
 else:
     CATEGORIES = DEFAULT_CATEGORIES
 
-# JavaScript run inside the page: locate the positions table by its header
-# labels and return one record per row, carrying the current category heading.
+# Safety net: a role whose title/company contains any of these is watched even if
+# Trackr files it under a non-target category (e.g. Consulting / Miscellaneous).
+KEYWORDS = [
+    "m&a", "corporate finance", "restructuring", "private equity", "leveraged finance",
+    "investment banking", "capital markets", "financial advisory", "advisory",
+    "financial sponsors", "growth equity",
+]
+
+# JS run inside the page: locate the positions table by header labels and return
+# one record per row, carrying the current category heading.
 EXTRACT_JS = r"""
 () => {
   const tables = Array.from(document.querySelectorAll('table'));
@@ -119,7 +126,6 @@ def log(*a):
 
 
 def capture_rows():
-    """Render the page and return (rows, headers)."""
     data = {"headers": [], "rows": []}
     with sync_playwright() as p:
         browser = p.chromium.launch(args=["--no-sandbox"])
@@ -152,7 +158,6 @@ def capture_rows():
 
 
 def normalize(rows):
-    """Map raw rows to {key: record}, keyed stably on (company, programme)."""
     out = {}
     for r in rows:
         company = str(r.get("company", "")).strip()
@@ -175,7 +180,15 @@ def in_scope(rec):
     if CATEGORIES is None:
         return True
     cat = (rec.get("category") or "").lower()
-    return any(c.lower() in cat for c in CATEGORIES)
+    if any(c.lower() in cat for c in CATEGORIES):
+        return True
+    text = ((rec.get("company") or "") + " " + (rec.get("programme") or "")).lower()
+    return any(kw in text for kw in KEYWORDS)
+
+
+def is_open(rec):
+    """A programme is 'open' once Trackr fills its Opening or Closing date."""
+    return bool((rec.get("opening") or "").strip() or (rec.get("closing") or "").strip())
 
 
 def send_email(subject, body):
@@ -199,16 +212,20 @@ def send_email(subject, body):
 def describe(rec):
     head = f"[{rec['category']}]" if rec.get("category") else ""
     line = f"{head} {rec.get('company') or '?'} - {rec.get('programme') or '?'}".strip()
-    tail = []
+    dates = []
     if rec.get("opening"):
-        tail.append(f"apertura {rec['opening']}")
+        dates.append(f"apre {rec['opening']}")
     if rec.get("closing"):
-        tail.append(f"chiusura {rec['closing']}")
-    if tail:
-        line += f" ({', '.join(tail)})"
+        dates.append(f"chiude {rec['closing']}")
+    if dates:
+        line += " (" + ", ".join(dates) + ")"
     if rec.get("link"):
         line += f"\n  {rec['link']}"
     return "- " + line
+
+
+def was_open(prev):
+    return bool(prev and (str(prev.get("opening") or "").strip() or str(prev.get("closing") or "").strip()))
 
 
 def main():
@@ -221,16 +238,19 @@ def main():
 
     everything = normalize(rows)
     current = {k: v for k, v in everything.items() if in_scope(v)}
-    log(f"Parsed {len(everything)} rows; {len(current)} in scope "
-        f"(categories={'all' if CATEGORIES is None else ','.join(CATEGORIES)}).")
+    open_now = sum(1 for v in current.values() if is_open(v))
+    log(f"Parsed {len(everything)} rows; {len(current)} watched; {open_now} open now "
+        f"(categories={'all' if CATEGORIES is None else ','.join(CATEGORIES)} + keywords).")
 
     if DEBUG:
         log("Headers:", headers)
         from collections import Counter
         cats = Counter(v["category"] for v in everything.values())
         log("Rows per category:", dict(cats))
-        for v in list(current.values())[:8]:
-            log("  ", describe(v).replace("\n", " "))
+        log("Currently OPEN (watched):")
+        for v in current.values():
+            if is_open(v):
+                log("  ", describe(v).replace("\n", " "))
         return 0
 
     seen = {}
@@ -241,36 +261,49 @@ def main():
             seen = {}
 
     baseline = not seen
-    new_keys = [k for k in current if k not in seen]
 
-    merged = {**seen, **current}
-    SEEN_FILE.write_text(json.dumps(merged, indent=2, ensure_ascii=False), encoding="utf-8")
-
+    # Daily heartbeat keeps the repo active (avoids 60-day auto-disable).
     today = datetime.date.today().isoformat()
     if not HEARTBEAT_FILE.exists() or HEARTBEAT_FILE.read_text(encoding="utf-8").strip() != today:
         HEARTBEAT_FILE.write_text(today, encoding="utf-8")
 
     if baseline:
+        SEEN_FILE.write_text(json.dumps(current, indent=2, ensure_ascii=False), encoding="utf-8")
         send_email(
-            f"[Trackr Monitor] Avviato - {len(current)} posizioni in baseline",
+            f"[Trackr Monitor] Avviato - {len(current)} in osservazione, {open_now} gia aperte",
             "Il monitor e' attivo.\n\n"
-            "Da ora ricevi una mail solo quando compaiono NUOVE posizioni "
-            "summer UK su Trackr nelle categorie monitorate "
-            f"({'tutte' if CATEGORIES is None else ', '.join(CATEGORIES)}).\n\n"
+            f"Tengo d'occhio {len(current)} programmi summer UK in target "
+            f"(categorie IB/PE + ruoli M&A/Restructuring/PE in qualsiasi categoria).\n"
+            f"Di questi, {open_now} risultano gia aperti adesso.\n\n"
+            "Da ora ti scrivo SOLO quando uno di questi APRE le candidature "
+            "(quando su Trackr compaiono le date di apertura/chiusura).\n\n"
             f"Pagina: {TRACKR_URL}\n",
         )
-        log(f"Baseline saved ({len(current)} positions).")
+        log(f"Baseline saved: {len(current)} watched, {open_now} already open.")
         return 0
 
-    if new_keys:
+    # Alert on programmes that became OPEN since last time (date cells now filled).
+    newly_open = [
+        k for k, v in current.items()
+        if is_open(v) and not was_open(seen.get(k))
+    ]
+
+    merged = {**seen, **current}
+    SEEN_FILE.write_text(json.dumps(merged, indent=2, ensure_ascii=False), encoding="utf-8")
+
+    if newly_open:
         body = (
-            f"{len(new_keys)} nuova/e posizione/i summer UK su Trackr:\n\n"
-            + "\n".join(describe(current[k]) for k in new_keys)
+            "Queste posizioni summer UK risultano ORA aperte su Trackr "
+            "(prima non avevano date):\n\n"
+            + "\n".join(describe(current[k]) for k in newly_open)
             + f"\n\nPagina: {TRACKR_URL}\n"
         )
-        send_email(f"🆕 {len(new_keys)} nuova/e posizione/i summer UK su Trackr", body)
+        send_email(
+            f"🆕 {len(newly_open)} posizione/i APERTA/E su Trackr (summer UK)",
+            body,
+        )
     else:
-        log("No new positions this run.")
+        log("No newly opened positions this run.")
 
     return 0
 
