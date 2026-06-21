@@ -91,7 +91,6 @@ EXTRACT_JS = r"""
     const cells = cellEls.map(c => c.innerText.trim());
     const nonEmpty = cells.filter(Boolean);
     if (cells.length < 3 || nonEmpty.length < 2) {
-      // Category heading / separator row -> remember it as the current section.
       const t = rowEls[i].innerText.trim();
       if (t && t.length < 40) currentCat = t;
       continue;
@@ -139,7 +138,6 @@ def capture_rows():
                 page.goto(TRACKR_URL, wait_until="domcontentloaded", timeout=60000)
             except Exception as e2:
                 log("ERROR goto retry:", e2)
-        # Give the table time to render, then wait for it explicitly.
         try:
             page.wait_for_selector("table", timeout=20000)
         except Exception:
@@ -181,8 +179,8 @@ def in_scope(rec):
 
 
 def send_email(subject, body):
-    host = os.environ.get("SMTP_HOST", "smtp.gmail.com")
-    port = int(os.environ.get("SMTP_PORT", "587"))
+    host = os.environ.get("SMTP_HOST") or "smtp.gmail.com"
+    port = int(os.environ.get("SMTP_PORT") or "587")
     user = os.environ["SMTP_USER"]
     pw = os.environ["SMTP_PASS"]
     to = os.environ.get("MAIL_TO") or user
@@ -199,14 +197,13 @@ def send_email(subject, body):
 
 
 def describe(rec):
-    bits = [f"[{rec['category']}]" if rec.get("category") else ""]
-    bits.append(f"{rec.get('company') or '?'} - {rec.get('programme') or '?'}")
+    head = f"[{rec['category']}]" if rec.get("category") else ""
+    line = f"{head} {rec.get('company') or '?'} - {rec.get('programme') or '?'}".strip()
     tail = []
     if rec.get("opening"):
         tail.append(f"apertura {rec['opening']}")
     if rec.get("closing"):
         tail.append(f"chiusura {rec['closing']}")
-    line = " ".join(b for b in bits if b)
     if tail:
         line += f" ({', '.join(tail)})"
     if rec.get("link"):
@@ -232,7 +229,6 @@ def main():
         from collections import Counter
         cats = Counter(v["category"] for v in everything.values())
         log("Rows per category:", dict(cats))
-        log("Sample in-scope records:")
         for v in list(current.values())[:8]:
             log("  ", describe(v).replace("\n", " "))
         return 0
