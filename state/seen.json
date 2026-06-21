@@ -1,0 +1,1202 @@
+{
+  "[\"amplifyme\", \"summer analyst training programme\"]": {
+    "category": "Promoted",
+    "company": "AmplifyME",
+    "programme": "Summer Analyst Training Programme",
+    "opening": "07 Jun 26",
+    "closing": "16 Oct 26",
+    "link": "https://app.the-trackr.com/company/amplifyme"
+  },
+  "[\"d.e. shaw\", \"trader/analyst intern (london) - summer 2027\"]": {
+    "category": "Buy-Side",
+    "company": "D.E. Shaw",
+    "programme": "Trader/Analyst Intern (London) - Summer 2027",
+    "opening": "01 Jun 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/d-e-shaw"
+  },
+  "[\"piper sandler\", \"2027 summer analyst programme\"]": {
+    "category": "Middle Market",
+    "company": "Piper Sandler",
+    "programme": "2027 Summer Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/piper-sandler"
+  },
+  "[\"goldman sachs\", \"2027 summer analyst programme\"]": {
+    "category": "Bulge Bracket",
+    "company": "Goldman Sachs",
+    "programme": "2027 Summer Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/goldman-sachs"
+  },
+  "[\"barclays\", \"summer internship programme 2027\"]": {
+    "category": "Bulge Bracket",
+    "company": "Barclays",
+    "programme": "Summer Internship Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/barclays"
+  },
+  "[\"bank of america\", \"summer 2027 analyst programme\"]": {
+    "category": "Bulge Bracket",
+    "company": "Bank of America",
+    "programme": "Summer 2027 Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/bank-of-america"
+  },
+  "[\"j.p. morgan\", \"2027 summer internship program\"]": {
+    "category": "Bulge Bracket",
+    "company": "J.P. Morgan",
+    "programme": "2027 Summer Internship Program",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/j-p-morgan"
+  },
+  "[\"morgan stanley\", \"2027 summer analyst programme\"]": {
+    "category": "Bulge Bracket",
+    "company": "Morgan Stanley",
+    "programme": "2027 Summer Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/morgan-stanley"
+  },
+  "[\"ubs\", \"2027 summer intern program\"]": {
+    "category": "Bulge Bracket",
+    "company": "UBS",
+    "programme": "2027 Summer Intern Program",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/ubs"
+  },
+  "[\"deutsche bank\", \"internship programme 2027\"]": {
+    "category": "Bulge Bracket",
+    "company": "Deutsche Bank",
+    "programme": "Internship Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/deutsche-bank"
+  },
+  "[\"citi\", \"summer analyst 2027\"]": {
+    "category": "Bulge Bracket",
+    "company": "Citi",
+    "programme": "Summer Analyst 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/citi"
+  },
+  "[\"rothschild & co.\", \"2027 summer analyst programme\"]": {
+    "category": "Elite Boutique",
+    "company": "Rothschild & Co.",
+    "programme": "2027 Summer Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/rothschild-co"
+  },
+  "[\"moelis & co\", \"2027 summer analyst, investment banking\"]": {
+    "category": "Elite Boutique",
+    "company": "Moelis & Co",
+    "programme": "2027 Summer Analyst, Investment Banking",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/moelis-co"
+  },
+  "[\"evercore\", \"summer internship (2027)\"]": {
+    "category": "Elite Boutique",
+    "company": "Evercore",
+    "programme": "Summer Internship (2027)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/evercore"
+  },
+  "[\"qatalyst partners\", \"2027 m&a advisory summer internship\"]": {
+    "category": "Elite Boutique",
+    "company": "Qatalyst Partners",
+    "programme": "2027 M&A Advisory Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/qatalyst-partners"
+  },
+  "[\"perella weinberg partners\", \"2027 advisory summer analyst programme\"]": {
+    "category": "Elite Boutique",
+    "company": "Perella Weinberg Partners",
+    "programme": "2027 Advisory Summer Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/perella-weinberg-partners"
+  },
+  "[\"centerview partners\", \"2027 summer internship\"]": {
+    "category": "Elite Boutique",
+    "company": "Centerview Partners",
+    "programme": "2027 Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/centerview-partners"
+  },
+  "[\"greenhill\", \"2027 summer internship\"]": {
+    "category": "Elite Boutique",
+    "company": "Greenhill",
+    "programme": "2027 Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/greenhill"
+  },
+  "[\"raine group\", \"2027 summer analyst\"]": {
+    "category": "Elite Boutique",
+    "company": "Raine Group",
+    "programme": "2027 Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/raine-group"
+  },
+  "[\"pjt partners\", \"2027 summer intern analyst\"]": {
+    "category": "Elite Boutique",
+    "company": "PJT Partners",
+    "programme": "2027 Summer Intern Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/pjt-partners"
+  },
+  "[\"ardea partners\", \"2027 summer analyst programme\"]": {
+    "category": "Elite Boutique",
+    "company": "Ardea Partners",
+    "programme": "2027 Summer Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/ardea-partners"
+  },
+  "[\"lazard\", \"2027 summer internship\"]": {
+    "category": "Elite Boutique",
+    "company": "Lazard",
+    "programme": "2027 Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/lazard"
+  },
+  "[\"bnp paribas\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "BNP Paribas",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/bnp-paribas"
+  },
+  "[\"fenchurch advisory\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "Fenchurch Advisory",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/fenchurch-advisory"
+  },
+  "[\"campbell lutyens\", \"summer analysts 2027\"]": {
+    "category": "Middle Market",
+    "company": "Campbell Lutyens",
+    "programme": "Summer Analysts 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/campbell-lutyens"
+  },
+  "[\"wells fargo\", \"emea summer analyst\"]": {
+    "category": "Middle Market",
+    "company": "Wells Fargo",
+    "programme": "EMEA Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/wells-fargo"
+  },
+  "[\"santander\", \"cib 2027 summer internship program\"]": {
+    "category": "Middle Market",
+    "company": "Santander",
+    "programme": "CIB 2027 Summer Internship Program",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/santander"
+  },
+  "[\"gleacher shacklock\", \"investment banking summer internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Gleacher Shacklock",
+    "programme": "Investment Banking Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/gleacher-shacklock"
+  },
+  "[\"mufg\", \"mufg 2027 summer internship\"]": {
+    "category": "Middle Market",
+    "company": "MUFG",
+    "programme": "MUFG 2027 Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/mufg"
+  },
+  "[\"macquarie group\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "Macquarie Group",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/macquarie-group"
+  },
+  "[\"nomura\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "Nomura",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/nomura"
+  },
+  "[\"eastdil secured\", \"2027 summer internship\"]": {
+    "category": "Middle Market",
+    "company": "Eastdil Secured",
+    "programme": "2027 Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/eastdil-secured"
+  },
+  "[\"jefferies\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "Jefferies",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/jefferies"
+  },
+  "[\"mizuho\", \"summer internship\"]": {
+    "category": "Middle Market",
+    "company": "Mizuho",
+    "programme": "Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/mizuho"
+  },
+  "[\"raymond james\", \"2027 summer analyst programme\"]": {
+    "category": "Middle Market",
+    "company": "Raymond James",
+    "programme": "2027 Summer Analyst Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/raymond-james"
+  },
+  "[\"william blair\", \"investment banking summer 2027 analyst\"]": {
+    "category": "Middle Market",
+    "company": "William Blair",
+    "programme": "Investment Banking Summer 2027 Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/william-blair"
+  },
+  "[\"hsbc\", \"summer internship 2026-2027\"]": {
+    "category": "Middle Market",
+    "company": "HSBC",
+    "programme": "Summer Internship 2026-2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/hsbc"
+  },
+  "[\"standard chartered\", \"internship programme uk 2027\"]": {
+    "category": "Middle Market",
+    "company": "Standard Chartered",
+    "programme": "Internship Programme UK 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/standard-chartered"
+  },
+  "[\"houlihan lokey\", \"summer financial analyst 2027\"]": {
+    "category": "Middle Market",
+    "company": "Houlihan Lokey",
+    "programme": "Summer Financial Analyst 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/houlihan-lokey"
+  },
+  "[\"société générale\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "Société Générale",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/societe-generale"
+  },
+  "[\"rede partners\", \"2027 summer intern programme\"]": {
+    "category": "Middle Market",
+    "company": "Rede Partners",
+    "programme": "2027 Summer Intern Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/rede-partners"
+  },
+  "[\"rbc capital markets\", \"2027 summer analyst\"]": {
+    "category": "Middle Market",
+    "company": "RBC Capital Markets",
+    "programme": "2027 Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/rbc-capital-markets"
+  },
+  "[\"dc advisory\", \"summer analyst programme 2027\"]": {
+    "category": "Middle Market",
+    "company": "DC Advisory",
+    "programme": "Summer Analyst Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/dc-advisory"
+  },
+  "[\"guggenheim partners\", \"2027 investment banking analyst intern\"]": {
+    "category": "Middle Market",
+    "company": "Guggenheim Partners",
+    "programme": "2027 Investment Banking Analyst Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/guggenheim-partners"
+  },
+  "[\"panmure liberum\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "Panmure Liberum",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/panmure-liberum"
+  },
+  "[\"td securities\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "TD Securities",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/td-securities"
+  },
+  "[\"alantra\", \"fig summer intern\"]": {
+    "category": "Middle Market",
+    "company": "Alantra",
+    "programme": "FIG Summer Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/alantra"
+  },
+  "[\"cibc\", \"summer intern 2027\"]": {
+    "category": "Middle Market",
+    "company": "CIBC",
+    "programme": "Summer Intern 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/cibc"
+  },
+  "[\"btig\", \"2027 uk internship program\"]": {
+    "category": "Middle Market",
+    "company": "BTIG",
+    "programme": "2027 UK Internship Program",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/btig"
+  },
+  "[\"peel hunt\", \"investment banking internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Peel Hunt",
+    "programme": "Investment Banking Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/peel-hunt"
+  },
+  "[\"dealglobe\", \"m&a analyst intern (mandarin speaking)\"]": {
+    "category": "Middle Market",
+    "company": "DealGlobe",
+    "programme": "M&A Analyst Intern (Mandarin speaking)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/dealglobe"
+  },
+  "[\"lincoln international\", \"uk summer internship programme 2027\"]": {
+    "category": "Middle Market",
+    "company": "Lincoln International",
+    "programme": "UK Summer Internship Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/lincoln-international"
+  },
+  "[\"bmo capital markets\", \"2027 investment banking summer analyst\"]": {
+    "category": "Middle Market",
+    "company": "BMO Capital Markets",
+    "programme": "2027 Investment Banking Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/bmo-capital-markets"
+  },
+  "[\"howden\", \"investment banking summer analyst\"]": {
+    "category": "Middle Market",
+    "company": "Howden",
+    "programme": "Investment Banking Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/howden"
+  },
+  "[\"kr8 advisory\", \"business & capital advisory (intern)\"]": {
+    "category": "Middle Market",
+    "company": "KR8 Advisory",
+    "programme": "Business & Capital Advisory (Intern)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/kr8-advisory"
+  },
+  "[\"baird\", \"m&a summer internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Baird",
+    "programme": "M&A Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/baird"
+  },
+  "[\"investec\", \"summer internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Investec",
+    "programme": "Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/investec"
+  },
+  "[\"natwest markets\", \"front office - internship\"]": {
+    "category": "Middle Market",
+    "company": "NatWest Markets",
+    "programme": "Front Office - Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/natwest-markets"
+  },
+  "[\"pharus\", \"investment banking summer analyst - 2027\"]": {
+    "category": "Middle Market",
+    "company": "Pharus",
+    "programme": "Investment Banking Summer Analyst - 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/pharus"
+  },
+  "[\"scotiabank\", \"2027 uk summer internship\"]": {
+    "category": "Middle Market",
+    "company": "Scotiabank",
+    "programme": "2027 UK Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/scotiabank"
+  },
+  "[\"quantuma\", \"corporate finance analyst (intern)\"]": {
+    "category": "Middle Market",
+    "company": "Quantuma",
+    "programme": "Corporate Finance Analyst (Intern)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/quantuma"
+  },
+  "[\"skagen capital\", \"investment banking intern\"]": {
+    "category": "Middle Market",
+    "company": "Skagen Capital",
+    "programme": "Investment banking intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/skagen-capital"
+  },
+  "[\"allia c&c\", \"advisory and funding team internship\"]": {
+    "category": "Middle Market",
+    "company": "Allia C&C",
+    "programme": "Advisory and Funding Team Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/allia-c-c"
+  },
+  "[\"crédit agricole\", \"summer internship programme 2027\"]": {
+    "category": "Middle Market",
+    "company": "Crédit Agricole",
+    "programme": "Summer Internship Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/credit-agricole"
+  },
+  "[\"flowdesk\", \"sales intern emea (f/m/d)\"]": {
+    "category": "Middle Market",
+    "company": "Flowdesk",
+    "programme": "Sales Intern EMEA (F/M/D)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/flowdesk"
+  },
+  "[\"mki global partners\", \"summer analyst (event-driven/special situations)\"]": {
+    "category": "Middle Market",
+    "company": "MKI Global Partners",
+    "programme": "Summer Analyst (Event-Driven/Special Situations)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/mki-global-partners"
+  },
+  "[\"citic clsa\", \"internship programme 2027\"]": {
+    "category": "Middle Market",
+    "company": "CITIC CLSA",
+    "programme": "Internship Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/citic-clsa"
+  },
+  "[\"lloyds banking group\", \"summer internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Lloyds Banking Group",
+    "programme": "Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/lloyds-banking-group"
+  },
+  "[\"gp bullhound\", \"future stars - work experience & insight programme\"]": {
+    "category": "Middle Market",
+    "company": "GP Bullhound",
+    "programme": "Future Stars - Work Experience & Insight Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/gp-bullhound"
+  },
+  "[\"global infrastructure advisors\", \"analyst / analyst internship\"]": {
+    "category": "Middle Market",
+    "company": "Global Infrastructure Advisors",
+    "programme": "Analyst / Analyst Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/global-infrastructure-advisors"
+  },
+  "[\"leerink partners\", \"2027 investment banking summer analyst program\"]": {
+    "category": "Middle Market",
+    "company": "Leerink Partners",
+    "programme": "2027 Investment Banking Summer Analyst Program",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/leerink-partners"
+  },
+  "[\"insurance advisory partners\", \"investment banking intern\"]": {
+    "category": "Middle Market",
+    "company": "Insurance Advisory Partners",
+    "programme": "Investment Banking Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/insurance-advisory-partners"
+  },
+  "[\"stj advisors\", \"summer internship program 2027\"]": {
+    "category": "Middle Market",
+    "company": "STJ Advisors",
+    "programme": "Summer Internship Program 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/stj-advisors"
+  },
+  "[\"national bank of canada\", \"intern\"]": {
+    "category": "Middle Market",
+    "company": "National Bank of Canada",
+    "programme": "Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/national-bank"
+  },
+  "[\"loizou & co\", \"financial advisory internship\"]": {
+    "category": "Middle Market",
+    "company": "Loizou & Co",
+    "programme": "Financial Advisory Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/loizou-co"
+  },
+  "[\"stifel\", \"investment banking summer intern\"]": {
+    "category": "Middle Market",
+    "company": "Stifel",
+    "programme": "Investment Banking Summer Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/stifel"
+  },
+  "[\"harris williams\", \"summer analyst\"]": {
+    "category": "Middle Market",
+    "company": "Harris Williams",
+    "programme": "Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/harris-williams"
+  },
+  "[\"rede partners\", \"spring into rede insight programme 2027\"]": {
+    "category": "Middle Market",
+    "company": "Rede Partners",
+    "programme": "Spring into Rede Insight Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/rede-partners"
+  },
+  "[\"gneiss energy\", \"summer internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Gneiss Energy",
+    "programme": "Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/gneiss-energy"
+  },
+  "[\"stout\", \"2027 summer intern - corporate finance\"]": {
+    "category": "Middle Market",
+    "company": "Stout",
+    "programme": "2027 Summer Intern - Corporate Finance",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/stout"
+  },
+  "[\"william blair\", \"investment banking summer analyst, secondary advisory\"]": {
+    "category": "Middle Market",
+    "company": "William Blair",
+    "programme": "Investment Banking Summer Analyst, Secondary Advisory",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/william-blair"
+  },
+  "[\"houlihan lokey\", \"summer financial analyst - manchester\"]": {
+    "category": "Middle Market",
+    "company": "Houlihan Lokey",
+    "programme": "Summer Financial Analyst - Manchester",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/houlihan-lokey"
+  },
+  "[\"btg pactual\", \"internship | special situations\"]": {
+    "category": "Middle Market",
+    "company": "BTG Pactual",
+    "programme": "Internship | Special Situations",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/btg-pactual"
+  },
+  "[\"cygnum capital\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "Cygnum Capital",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/cygnum-capital"
+  },
+  "[\"berenberg\", \"summer internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Berenberg",
+    "programme": "Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/berenberg"
+  },
+  "[\"first bank of nigeria\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "First Bank of Nigeria",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/first-bank-of-nigeria"
+  },
+  "[\"bdo global\", \"2027 summer internship programme\"]": {
+    "category": "Middle Market",
+    "company": "BDO Global",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/bdo-global"
+  },
+  "[\"handelsbanken\", \"summer internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Handelsbanken",
+    "programme": "Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/handelsbanken"
+  },
+  "[\"bbva\", \"summer internship c&ib\"]": {
+    "category": "Middle Market",
+    "company": "BBVA",
+    "programme": "Summer Internship C&IB",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/bbva"
+  },
+  "[\"zeus capital\", \"zeus internship 2027\"]": {
+    "category": "Middle Market",
+    "company": "Zeus Capital",
+    "programme": "Zeus Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/zeus-capital"
+  },
+  "[\"abn amro\", \"summer intern - corporate dcm\"]": {
+    "category": "Middle Market",
+    "company": "ABN AMRO",
+    "programme": "Summer Intern - Corporate DCM",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/abn-amro"
+  },
+  "[\"blackstone\", \"2027 summer analyst\"]": {
+    "category": "Buy-Side",
+    "company": "Blackstone",
+    "programme": "2027 Summer Analyst",
+    "opening": "15 Jun 26",
+    "closing": "30 Oct 26",
+    "link": "https://app.the-trackr.com/company/blackstone"
+  },
+  "[\"gic\", \"gic internship programme 2027\"]": {
+    "category": "Buy-Side",
+    "company": "GIC",
+    "programme": "GIC Internship Programme 2027",
+    "opening": "11 Jun 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/gic"
+  },
+  "[\"citadel\", \"international equities associate – intern\"]": {
+    "category": "Buy-Side",
+    "company": "Citadel",
+    "programme": "International Equities Associate – Intern",
+    "opening": "21 May 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/citadel"
+  },
+  "[\"capula investment management\", \"trading & research summer internship 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Capula Investment Management",
+    "programme": "Trading & Research Summer Internship 2027",
+    "opening": "03 Apr 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/capula-investment-management"
+  },
+  "[\"point72\", \"2027 academy investment summer internship\"]": {
+    "category": "Buy-Side",
+    "company": "Point72",
+    "programme": "2027 Academy Investment Summer Internship",
+    "opening": "02 Mar 26",
+    "closing": "14 Jun 26",
+    "link": "https://app.the-trackr.com/company/point72"
+  },
+  "[\"millennium management\", \"millennium investment internship 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Millennium Management",
+    "programme": "Millennium Investment Internship 2027",
+    "opening": "26 Feb 26",
+    "closing": "24 Mar 26",
+    "link": "https://app.the-trackr.com/company/millennium-management"
+  },
+  "[\"squarepoint capital\", \"intern quant researcher\"]": {
+    "category": "Buy-Side",
+    "company": "Squarepoint Capital",
+    "programme": "Intern Quant Researcher",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/squarepoint-capital"
+  },
+  "[\"temasek\", \"temasek summer associate programme 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Temasek",
+    "programme": "Temasek Summer Associate Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/temasek"
+  },
+  "[\"oak hill advisors\", \"summer analyst 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Oak Hill Advisors",
+    "programme": "Summer Analyst 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/oak-hill-advisors"
+  },
+  "[\"balyasny asset management\", \"quantitative analyst – macro & commodities (summer internship)\"]": {
+    "category": "Buy-Side",
+    "company": "Balyasny Asset Management",
+    "programme": "Quantitative Analyst – Macro & Commodities (Summer Internship)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/balyasny-asset-management"
+  },
+  "[\"ares management\", \"summer analyst programme 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Ares Management",
+    "programme": "Summer Analyst Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/ares-management"
+  },
+  "[\"capstone\", \"2027 summer internship\"]": {
+    "category": "Buy-Side",
+    "company": "Capstone",
+    "programme": "2027 Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/capstone"
+  },
+  "[\"infrared capital partners\", \"2027 summer analyst\"]": {
+    "category": "Buy-Side",
+    "company": "InfraRed Capital Partners",
+    "programme": "2027 Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/infrared-capital-partners"
+  },
+  "[\"verition fund management\", \"2027 summer internship\"]": {
+    "category": "Buy-Side",
+    "company": "Verition Fund Management",
+    "programme": "2027 Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/verition-fund-management"
+  },
+  "[\"cd&r\", \"private equity summer internship 2027\"]": {
+    "category": "Buy-Side",
+    "company": "CD&R",
+    "programme": "Private Equity Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/cd-r"
+  },
+  "[\"orbis\", \"investment analyst internship 2026-2027\"]": {
+    "category": "Buy-Side",
+    "company": "Orbis",
+    "programme": "Investment Analyst Internship 2026-2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/orbis"
+  },
+  "[\"general atlantic\", \"2027 summer analyst\"]": {
+    "category": "Buy-Side",
+    "company": "General Atlantic",
+    "programme": "2027 Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/general-atlantic"
+  },
+  "[\"man group\", \"2027 summer intern programme\"]": {
+    "category": "Buy-Side",
+    "company": "Man Group",
+    "programme": "2027 Summer Intern Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/man-group"
+  },
+  "[\"schonfeld\", \"2027 summer intern\"]": {
+    "category": "Buy-Side",
+    "company": "Schonfeld",
+    "programme": "2027 Summer Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/schonfeld"
+  },
+  "[\"brevan howard\", \"summer internship programme 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Brevan Howard",
+    "programme": "Summer Internship Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/brevan-howard"
+  },
+  "[\"harrison street\", \"summer 2027 intern\"]": {
+    "category": "Buy-Side",
+    "company": "Harrison Street",
+    "programme": "Summer 2027 Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/harrison-street"
+  },
+  "[\"stepstone group\", \"2027 private equity summer analyst\"]": {
+    "category": "Buy-Side",
+    "company": "StepStone Group",
+    "programme": "2027 Private Equity Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/stepstone-group"
+  },
+  "[\"cambridge associates\", \"investment summer analyst (intern)\"]": {
+    "category": "Buy-Side",
+    "company": "Cambridge Associates",
+    "programme": "Investment Summer Analyst (Intern)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/cambridge-associates"
+  },
+  "[\"future planet capital\", \"venture capital micro-internship - december 2026\"]": {
+    "category": "Buy-Side",
+    "company": "Future Planet Capital",
+    "programme": "Venture Capital Micro-Internship - December 2026",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/future-planet-capital"
+  },
+  "[\"eqt\", \"summer analyst programme – eqt real estate\"]": {
+    "category": "Buy-Side",
+    "company": "EQT",
+    "programme": "Summer Analyst Programme – EQT Real Estate",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/eqt"
+  },
+  "[\"w. p. carey\", \"investments summer analyst 2027\"]": {
+    "category": "Buy-Side",
+    "company": "W. P. Carey",
+    "programme": "Investments Summer Analyst 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/w-p-carey"
+  },
+  "[\"exoduspoint\", \"fixed income internship - summer 2027\"]": {
+    "category": "Buy-Side",
+    "company": "ExodusPoint",
+    "programme": "Fixed Income Internship - Summer 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/exoduspoint"
+  },
+  "[\"brio real estate\", \"summer intern\"]": {
+    "category": "Buy-Side",
+    "company": "Brio Real Estate",
+    "programme": "Summer Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/brio-real-estate"
+  },
+  "[\"lasalle\", \"2027 summer internship programme\"]": {
+    "category": "Buy-Side",
+    "company": "LaSalle",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/lasalle"
+  },
+  "[\"rokos capital management\", \"rcm internship programme 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Rokos Capital Management",
+    "programme": "RCM Internship Programme 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/rokos-capital-management"
+  },
+  "[\"iqt\", \"investment associate internship (us citizens only)\"]": {
+    "category": "Buy-Side",
+    "company": "IQT",
+    "programme": "Investment Associate Internship (US Citizens Only)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/iqt"
+  },
+  "[\"welltower\", \"2027 summer analyst - real estate investments\"]": {
+    "category": "Buy-Side",
+    "company": "Welltower",
+    "programme": "2027 Summer Analyst - Real Estate Investments",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/welltower"
+  },
+  "[\"ethical capital partners\", \"investment intern\"]": {
+    "category": "Buy-Side",
+    "company": "Ethical Capital Partners",
+    "programme": "Investment Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/ethical-capital-partners"
+  },
+  "[\"hayfin capital management\", \"summer intern 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Hayfin Capital Management",
+    "programme": "Summer Intern 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/hayfin-capital-management"
+  },
+  "[\"arena investors\", \"2027 summer investment analyst\"]": {
+    "category": "Buy-Side",
+    "company": "Arena Investors",
+    "programme": "2027 Summer Investment Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/arena-investors"
+  },
+  "[\"equitix\", \"internship 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Equitix",
+    "programme": "Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/equitix"
+  },
+  "[\"burford capital\", \"summer analyst internship\"]": {
+    "category": "Buy-Side",
+    "company": "Burford Capital",
+    "programme": "Summer Analyst Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/burford-capital"
+  },
+  "[\"cd&r\", \"private equity spring insight 2027\"]": {
+    "category": "Buy-Side",
+    "company": "CD&R",
+    "programme": "Private Equity Spring Insight 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/cd-r"
+  },
+  "[\"caxton associates\", \"2027 summer internship programme\"]": {
+    "category": "Buy-Side",
+    "company": "Caxton Associates",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/caxton-associates"
+  },
+  "[\"bgf\", \"2027 summer internship programme\"]": {
+    "category": "Buy-Side",
+    "company": "BGF",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/bgf"
+  },
+  "[\"sona asset management\", \"summer intern programme\"]": {
+    "category": "Buy-Side",
+    "company": "Sona Asset Management",
+    "programme": "Summer Intern Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/sona-asset-management"
+  },
+  "[\"lmr partners\", \"investments summer internship 2027\"]": {
+    "category": "Buy-Side",
+    "company": "LMR Partners",
+    "programme": "Investments Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/lmr-partners"
+  },
+  "[\"compound equity group\", \"junior investor (summer 2027 internship)\"]": {
+    "category": "Buy-Side",
+    "company": "Compound Equity Group",
+    "programme": "Junior Investor (Summer 2027 Internship)",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/compound-equity-group"
+  },
+  "[\"orbis\", \"uk business internship\"]": {
+    "category": "Buy-Side",
+    "company": "Orbis",
+    "programme": "UK Business Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/orbis"
+  },
+  "[\"neuberger berman\", \"summer intern 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Neuberger Berman",
+    "programme": "Summer Intern 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/neuberger-berman"
+  },
+  "[\"future planet capital\", \"venture capital & investment micro-internship - march 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Future Planet Capital",
+    "programme": "Venture Capital & Investment Micro-Internship - March 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/future-planet-capital"
+  },
+  "[\"westgrove\", \"summer analyst\"]": {
+    "category": "Buy-Side",
+    "company": "Westgrove",
+    "programme": "Summer Analyst",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/westgrove"
+  },
+  "[\"alvine capital\", \"summer intern - london, uk\"]": {
+    "category": "Buy-Side",
+    "company": "Alvine Capital",
+    "programme": "Summer Intern - London, UK",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/alvine-capital"
+  },
+  "[\"pictet asset management\", \"equities business management summer internship 2027\"]": {
+    "category": "Buy-Side",
+    "company": "Pictet Asset Management",
+    "programme": "Equities Business Management Summer Internship 2027",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/pictet-asset-management"
+  },
+  "[\"global gate\", \"2027 private equity internship programme\"]": {
+    "category": "Buy-Side",
+    "company": "Global Gate",
+    "programme": "2027 Private Equity Internship Programme",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/global-gate"
+  },
+  "[\"millennium management\", \"millennium investment internship 2028\"]": {
+    "category": "Buy-Side",
+    "company": "Millennium Management",
+    "programme": "Millennium Investment Internship 2028",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/millennium-management"
+  },
+  "[\"point72\", \"2028 academy investment summer internship\"]": {
+    "category": "Buy-Side",
+    "company": "Point72",
+    "programme": "2028 Academy Investment Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/point72"
+  },
+  "[\"affinius capital\", \"summer 2027 intern\"]": {
+    "category": "Buy-Side",
+    "company": "Affinius Capital",
+    "programme": "Summer 2027 Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/affinius-capital"
+  },
+  "[\"point72\", \"international sector analyst internship\"]": {
+    "category": "Buy-Side",
+    "company": "Point72",
+    "programme": "International Sector Analyst Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/point72"
+  },
+  "[\"climate investment\", \"2027 summer intern\"]": {
+    "category": "Buy-Side",
+    "company": "Climate Investment",
+    "programme": "2027 Summer Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/climate-investment"
+  },
+  "[\"intriva\", \"private equity intern\"]": {
+    "category": "Buy-Side",
+    "company": "Intriva",
+    "programme": "Private Equity Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/intriva"
+  },
+  "[\"kline hill partners\", \"summer 2027 investment team intern\"]": {
+    "category": "Buy-Side",
+    "company": "Kline Hill Partners",
+    "programme": "Summer 2027 Investment Team Intern",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/kline-hill-partners"
+  },
+  "[\"hamilton lane\", \"summer intern, portfolio management group\"]": {
+    "category": "Buy-Side",
+    "company": "Hamilton Lane",
+    "programme": "Summer Intern, Portfolio Management Group",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/hamilton-lane"
+  },
+  "[\"capula investment management\", \"2028 trading and research summer internship\"]": {
+    "category": "Buy-Side",
+    "company": "Capula Investment Management",
+    "programme": "2028 Trading and Research Summer Internship",
+    "opening": "",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/capula-investment-management"
+  }
+}
