@@ -1,0 +1,59 @@
+name: Trackr Summer UK Monitor
+
+on:
+  schedule:
+    # Every 15 minutes. GitHub's free scheduler is best-effort and can be
+    # delayed under load, so real cadence is roughly every 15-25 min.
+    - cron: "*/15 * * * *"
+  workflow_dispatch: {}   # adds a manual "Run workflow" button
+
+permissions:
+  contents: write          # needed to commit the updated state back
+
+concurrency:
+  group: trackr-monitor
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Cache Playwright browsers
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-chromium-1.48.0
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+
+      - name: Run monitor
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO:   ${{ secrets.MAIL_TO }}
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}   # optional, defaults to smtp.gmail.com
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}   # optional, defaults to 587
+        run: python monitor.py
+
+      - name: Persist state
+        run: |
+          if [[ -n "$(git status --porcelain state)" ]]; then
+            git config user.name  "trackr-monitor"
+            git config user.email "actions@users.noreply.github.com"
+            git add state
+            git commit -m "state: update $(date -u +%FT%TZ)"
+            git push
+          else
+            echo "No state changes."
+          fi
