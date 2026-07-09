@@ -2,9 +2,11 @@ name: Trackr Summer UK Monitor
 
 on:
   schedule:
-    # Every 15 minutes. GitHub's free scheduler is best-effort and can be
-    # delayed under load, so real cadence is roughly every 15-25 min.
-    - cron: "*/15 * * * *"
+    # Every 30 minutes. 15-min was too tight: runs occasionally took ~15 min
+    # (browser install + slow page load), overlapped, and the concurrency rule
+    # cancelled the queued run -> "Run failed / cancelled" emails. 30 min gives
+    # plenty of headroom and is more than enough for internship openings.
+    - cron: "*/30 * * * *"
   workflow_dispatch: {}   # adds a manual "Run workflow" button
 
 permissions:
@@ -17,6 +19,7 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
+    timeout-minutes: 12        # if a run ever hangs, kill it cleanly instead of lingering
     steps:
       - name: Checkout
         uses: actions/checkout@v4
