@@ -136,19 +136,18 @@ def capture_rows():
             )
         )
         page = ctx.new_page()
+        # domcontentloaded (NOT networkidle): the Trackr SPA polls in the
+        # background and never goes "idle", so networkidle would waste ~60s/run.
         try:
-            page.goto(TRACKR_URL, wait_until="networkidle", timeout=60000)
+            page.goto(TRACKR_URL, wait_until="domcontentloaded", timeout=45000)
         except Exception as e:
-            log("WARN goto:", e)
-            try:
-                page.goto(TRACKR_URL, wait_until="domcontentloaded", timeout=60000)
-            except Exception as e2:
-                log("ERROR goto retry:", e2)
+            log("ERROR goto:", e)
+        # Wait for the positions table to actually render, then a short settle.
         try:
-            page.wait_for_selector("table", timeout=20000)
+            page.wait_for_selector("table tr", timeout=25000)
         except Exception:
-            pass
-        page.wait_for_timeout(3000)
+            log("WARN: table rows not found within 25s (slow render or layout change).")
+        page.wait_for_timeout(2500)
         try:
             data = page.evaluate(EXTRACT_JS)
         except Exception as e:
