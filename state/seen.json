@@ -1286,5 +1286,13 @@
     "opening": "",
     "closing": "",
     "link": "https://app.the-trackr.com/company/general-electric"
+  },
+  "[\"citadel\", \"2027 associate intern\"]": {
+    "category": "Buy-Side",
+    "company": "Citadel",
+    "programme": "2027 Associate Intern",
+    "opening": "21 May 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/citadel"
   }
 }
