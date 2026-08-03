@@ -1310,5 +1310,13 @@
     "opening": "03 Aug 26",
     "closing": "14 Sep 26",
     "link": "https://app.the-trackr.com/company/atlas-holdings"
+  },
+  "[\"btg pactual\", \"summer undergrad 2027\"]": {
+    "category": "Middle Market",
+    "company": "BTG Pactual",
+    "programme": "Summer Undergrad 2027",
+    "opening": "03 Aug 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/btg-pactual"
   }
 }
