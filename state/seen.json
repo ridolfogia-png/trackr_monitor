@@ -1318,5 +1318,13 @@
     "opening": "03 Aug 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/btg-pactual"
+  },
+  "[\"smbc\", \"summer intern programme 2027\"]": {
+    "category": "Middle Market",
+    "company": "SMBC",
+    "programme": "Summer Intern Programme 2027",
+    "opening": "06 Aug 26",
+    "closing": "07 Sep 26",
+    "link": "https://app.the-trackr.com/company/smbc"
   }
 }
