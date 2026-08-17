@@ -107,7 +107,7 @@
     "category": "Elite Boutique",
     "company": "Evercore",
     "programme": "Summer Internship (2027)",
-    "opening": "",
+    "opening": "17 Aug 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/evercore"
   },
@@ -1342,5 +1342,21 @@
     "opening": "12 Aug 26",
     "closing": "13 Aug 26",
     "link": "https://app.the-trackr.com/company/patrizia"
+  },
+  "[\"ubs\", \"2027 summer internship\"]": {
+    "category": "Bulge Bracket",
+    "company": "UBS",
+    "programme": "2027 Summer Internship",
+    "opening": "17 Aug 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/ubs"
+  },
+  "[\"standard chartered\", \"internship programme 2027\"]": {
+    "category": "Middle Market",
+    "company": "Standard Chartered",
+    "programme": "Internship Programme 2027",
+    "opening": "17 Aug 26",
+    "closing": "31 Dec 26",
+    "link": "https://app.the-trackr.com/company/standard-chartered"
   }
 }
