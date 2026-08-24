@@ -843,7 +843,7 @@
     "category": "Buy-Side",
     "company": "CD&R",
     "programme": "Private Equity Summer Internship 2027",
-    "opening": "",
+    "opening": "24 Aug 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/cd-r"
   },
@@ -1366,5 +1366,13 @@
     "opening": "17 Aug 26",
     "closing": "30 Sep 26",
     "link": "https://app.the-trackr.com/company/liontree"
+  },
+  "[\"raine group\", \"2027 summer analyst program\"]": {
+    "category": "Elite Boutique",
+    "company": "Raine Group",
+    "programme": "2027 Summer Analyst Program",
+    "opening": "24 Aug 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/raine-group"
   }
 }
