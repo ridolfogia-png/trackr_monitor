@@ -1374,5 +1374,13 @@
     "opening": "24 Aug 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/raine-group"
+  },
+  "[\"wells fargo\", \"emea summer analyst\\n3\"]": {
+    "category": "Middle Market",
+    "company": "Wells Fargo",
+    "programme": "EMEA Summer Analyst\n3",
+    "opening": "26 Aug 26",
+    "closing": "31 Oct 26",
+    "link": "https://app.the-trackr.com/company/wells-fargo"
   }
 }
