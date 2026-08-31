@@ -259,7 +259,7 @@
     "category": "Middle Market",
     "company": "Jefferies",
     "programme": "2027 Summer Internship Programme",
-    "opening": "",
+    "opening": "31 Aug 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/jefferies"
   },
@@ -1382,5 +1382,21 @@
     "opening": "26 Aug 26",
     "closing": "31 Oct 26",
     "link": "https://app.the-trackr.com/company/wells-fargo"
+  },
+  "[\"j.p. morgan\", \"2027 summer internship program\\n10\"]": {
+    "category": "Bulge Bracket",
+    "company": "J.P. Morgan",
+    "programme": "2027 Summer Internship Program\n10",
+    "opening": "31 Aug 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/j-p-morgan"
+  },
+  "[\"nomura\", \"2027 summer internship programme\\n5\"]": {
+    "category": "Middle Market",
+    "company": "Nomura",
+    "programme": "2027 Summer Internship Programme\n5",
+    "opening": "31 Aug 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/nomura"
   }
 }
