@@ -139,7 +139,7 @@
     "category": "Elite Boutique",
     "company": "Greenhill",
     "programme": "2027 Summer Internship",
-    "opening": "",
+    "opening": "31 Aug 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/greenhill"
   },
@@ -1398,5 +1398,21 @@
     "opening": "31 Aug 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/nomura"
+  },
+  "[\"pjt partners\", \"2027 summer analyst\\n3\"]": {
+    "category": "Elite Boutique",
+    "company": "PJT Partners",
+    "programme": "2027 Summer Analyst\n3",
+    "opening": "31 Aug 26",
+    "closing": "04 Oct 26",
+    "link": "https://app.the-trackr.com/company/pjt-partners"
+  },
+  "[\"jefferies\", \"2027 summer internship programme\\n6\"]": {
+    "category": "Middle Market",
+    "company": "Jefferies",
+    "programme": "2027 Summer Internship Programme\n6",
+    "opening": "31 Aug 26",
+    "closing": "15 Nov 26",
+    "link": "https://app.the-trackr.com/company/jefferies"
   }
 }
