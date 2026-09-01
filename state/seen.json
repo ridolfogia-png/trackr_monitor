@@ -1414,5 +1414,21 @@
     "opening": "31 Aug 26",
     "closing": "15 Nov 26",
     "link": "https://app.the-trackr.com/company/jefferies"
+  },
+  "[\"macquarie group\", \"2027 summer internship programme\\n4\"]": {
+    "category": "Middle Market",
+    "company": "Macquarie Group",
+    "programme": "2027 Summer Internship Programme\n4",
+    "opening": "01 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/macquarie-group"
+  },
+  "[\"dc advisory\", \"summer intern 2027 programme\"]": {
+    "category": "Middle Market",
+    "company": "DC Advisory",
+    "programme": "Summer Intern 2027 Programme",
+    "opening": "01 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/dc-advisory"
   }
 }
