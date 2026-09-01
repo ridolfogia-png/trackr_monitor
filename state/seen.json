@@ -1430,5 +1430,21 @@
     "opening": "01 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/dc-advisory"
+  },
+  "[\"deutsche bank\", \"internship programme 2027\\n2\"]": {
+    "category": "Bulge Bracket",
+    "company": "Deutsche Bank",
+    "programme": "Internship Programme 2027\n2",
+    "opening": "01 Sep 26",
+    "closing": "30 Oct 26",
+    "link": "https://app.the-trackr.com/company/deutsche-bank"
+  },
+  "[\"evercore\", \"summer internship (2027)\\n6\"]": {
+    "category": "Elite Boutique",
+    "company": "Evercore",
+    "programme": "Summer Internship (2027)\n6",
+    "opening": "01 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/evercore"
   }
 }
