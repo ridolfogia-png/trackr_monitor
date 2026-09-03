@@ -1454,5 +1454,13 @@
     "opening": "01 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/citi"
+  },
+  "[\"harris williams\", \"2027 summer analyst\"]": {
+    "category": "Middle Market",
+    "company": "Harris Williams",
+    "programme": "2027 Summer Analyst",
+    "opening": "03 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/harris-williams"
   }
 }
