@@ -1470,5 +1470,77 @@
     "opening": "04 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/citi"
+  },
+  "[\"morgan stanley\", \"2027 summer analyst programme\\n4\"]": {
+    "category": "Bulge Bracket",
+    "company": "Morgan Stanley",
+    "programme": "2027 Summer Analyst Programme\n4",
+    "opening": "07 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/morgan-stanley"
+  },
+  "[\"deutsche bank\", \"internship programme 2027\\n4\"]": {
+    "category": "Bulge Bracket",
+    "company": "Deutsche Bank",
+    "programme": "Internship Programme 2027\n4",
+    "opening": "07 Sep 26",
+    "closing": "30 Oct 26",
+    "link": "https://app.the-trackr.com/company/deutsche-bank"
+  },
+  "[\"mufg\", \"2027 summer analyst programme\\n4\"]": {
+    "category": "Middle Market",
+    "company": "MUFG",
+    "programme": "2027 Summer Analyst Programme\n4",
+    "opening": "07 Sep 26",
+    "closing": "29 Nov 26",
+    "link": "https://app.the-trackr.com/company/mufg"
+  },
+  "[\"mizuho\", \"2027 summer internship\\n6\"]": {
+    "category": "Middle Market",
+    "company": "Mizuho",
+    "programme": "2027 Summer Internship\n6",
+    "opening": "07 Sep 26",
+    "closing": "05 Oct 26",
+    "link": "https://app.the-trackr.com/company/mizuho"
+  },
+  "[\"houlihan lokey\", \"summer financial analyst 2027\\n2\"]": {
+    "category": "Middle Market",
+    "company": "Houlihan Lokey",
+    "programme": "Summer Financial Analyst 2027\n2",
+    "opening": "07 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/houlihan-lokey"
+  },
+  "[\"société générale\", \"2027 summer internship programme\\n2\"]": {
+    "category": "Middle Market",
+    "company": "Société Générale",
+    "programme": "2027 Summer Internship Programme\n2",
+    "opening": "07 Sep 26",
+    "closing": "25 Oct 26",
+    "link": "https://app.the-trackr.com/company/societe-generale"
+  },
+  "[\"baird\", \"2027 global investment banking - m&a summer internship\"]": {
+    "category": "Middle Market",
+    "company": "Baird",
+    "programme": "2027 Global Investment Banking - M&A Summer Internship",
+    "opening": "07 Sep 26",
+    "closing": "02 Oct 26",
+    "link": "https://app.the-trackr.com/company/baird"
+  },
+  "[\"infrared capital partners\", \"investments summer analyst internship 2027\"]": {
+    "category": "Buy-Side",
+    "company": "InfraRed Capital Partners",
+    "programme": "Investments Summer Analyst Internship 2027",
+    "opening": "07 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/infrared-capital-partners"
+  },
+  "[\"brevan howard\", \"2027 summer internship program\"]": {
+    "category": "Buy-Side",
+    "company": "Brevan Howard",
+    "programme": "2027 Summer Internship Program",
+    "opening": "07 Sep 26",
+    "closing": "30 Apr 27",
+    "link": "https://app.the-trackr.com/company/brevan-howard"
   }
 }
