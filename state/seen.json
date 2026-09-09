@@ -411,8 +411,8 @@
     "category": "Middle Market",
     "company": "Lincoln International",
     "programme": "UK Summer Internship Programme 2027",
-    "opening": "",
-    "closing": "",
+    "opening": "09 Sep 26",
+    "closing": "09 Oct 26",
     "link": "https://app.the-trackr.com/company/lincoln-international"
   },
   "[\"bmo capital markets\", \"2027 investment banking summer analyst\"]": {
@@ -1550,5 +1550,21 @@
     "opening": "07 Sep 26",
     "closing": "17 Oct 26",
     "link": "https://app.the-trackr.com/company/houlihan-lokey"
+  },
+  "[\"citi\", \"summer analyst 2027\\n4\"]": {
+    "category": "Bulge Bracket",
+    "company": "Citi",
+    "programme": "Summer Analyst 2027\n4",
+    "opening": "09 Sep 26",
+    "closing": "06 Nov 26",
+    "link": "https://app.the-trackr.com/company/citi"
+  },
+  "[\"temasek\", \"2027 summer internship programme\"]": {
+    "category": "Buy-Side",
+    "company": "Temasek",
+    "programme": "2027 Summer Internship Programme",
+    "opening": "09 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/temasek"
   }
 }
