@@ -1564,7 +1564,15 @@
     "company": "Temasek",
     "programme": "2027 Summer Internship Programme",
     "opening": "09 Sep 26",
-    "closing": "",
+    "closing": "02 Oct 26",
     "link": "https://app.the-trackr.com/company/temasek"
+  },
+  "[\"mufg\", \"2027 summer analyst programme\\n6\"]": {
+    "category": "Middle Market",
+    "company": "MUFG",
+    "programme": "2027 Summer Analyst Programme\n6",
+    "opening": "09 Sep 26",
+    "closing": "29 Nov 26",
+    "link": "https://app.the-trackr.com/company/mufg"
   }
 }
