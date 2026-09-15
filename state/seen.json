@@ -1606,5 +1606,13 @@
     "opening": "15 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/graham-capital-management"
+  },
+  "[\"citi\", \"summer analyst 2027\\n5\"]": {
+    "category": "Bulge Bracket",
+    "company": "Citi",
+    "programme": "Summer Analyst 2027\n5",
+    "opening": "15 Sep 26",
+    "closing": "06 Nov 26",
+    "link": "https://app.the-trackr.com/company/citi"
   }
 }
