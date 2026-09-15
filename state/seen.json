@@ -1590,5 +1590,21 @@
     "opening": "11 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/rbc-capital-markets"
+  },
+  "[\"howden\", \"investment banking summer analyst 2027\"]": {
+    "category": "Middle Market",
+    "company": "Howden",
+    "programme": "Investment Banking Summer Analyst 2027",
+    "opening": "15 Sep 26",
+    "closing": "13 Oct 26",
+    "link": "https://app.the-trackr.com/company/howden"
+  },
+  "[\"graham capital management\", \"2027 summer internship\"]": {
+    "category": "Buy-Side",
+    "company": "Graham Capital Management",
+    "programme": "2027 Summer Internship",
+    "opening": "15 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/graham-capital-management"
   }
 }
