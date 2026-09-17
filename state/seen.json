@@ -1622,5 +1622,13 @@
     "opening": "16 Sep 26",
     "closing": "15 Nov 26",
     "link": "https://app.the-trackr.com/company/jefferies"
+  },
+  "[\"blackstone\", \"2027 spring insight programme\"]": {
+    "category": "Buy-Side",
+    "company": "Blackstone",
+    "programme": "2027 Spring Insight Programme",
+    "opening": "17 Sep 26",
+    "closing": "16 Oct 26",
+    "link": "https://app.the-trackr.com/company/blackstone"
   }
 }
