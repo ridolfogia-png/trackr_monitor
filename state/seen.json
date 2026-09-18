@@ -355,8 +355,8 @@
     "category": "Middle Market",
     "company": "Panmure Liberum",
     "programme": "2027 Summer Internship Programme",
-    "opening": "",
-    "closing": "",
+    "opening": "18 Sep 26",
+    "closing": "16 Oct 26",
     "link": "https://app.the-trackr.com/company/panmure-liberum"
   },
   "[\"td securities\", \"2027 summer internship programme\"]": {
@@ -1630,5 +1630,13 @@
     "opening": "17 Sep 26",
     "closing": "16 Oct 26",
     "link": "https://app.the-trackr.com/company/blackstone"
+  },
+  "[\"citi\", \"summer analyst 2027\\n6\"]": {
+    "category": "Bulge Bracket",
+    "company": "Citi",
+    "programme": "Summer Analyst 2027\n6",
+    "opening": "18 Sep 26",
+    "closing": "06 Nov 26",
+    "link": "https://app.the-trackr.com/company/citi"
   }
 }
