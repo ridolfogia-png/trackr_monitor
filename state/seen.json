@@ -1638,5 +1638,13 @@
     "opening": "18 Sep 26",
     "closing": "06 Nov 26",
     "link": "https://app.the-trackr.com/company/citi"
+  },
+  "[\"cibc\", \"summer intern 2027\\n3\"]": {
+    "category": "Middle Market",
+    "company": "CIBC",
+    "programme": "Summer Intern 2027\n3",
+    "opening": "18 Sep 26",
+    "closing": "02 Oct 26",
+    "link": "https://app.the-trackr.com/company/cibc"
   }
 }
