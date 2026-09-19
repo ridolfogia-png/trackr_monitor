@@ -1646,5 +1646,13 @@
     "opening": "18 Sep 26",
     "closing": "02 Oct 26",
     "link": "https://app.the-trackr.com/company/cibc"
+  },
+  "[\"harrison street\", \"summer 2027 intern\\n2\"]": {
+    "category": "Buy-Side",
+    "company": "Harrison Street",
+    "programme": "Summer 2027 Intern\n2",
+    "opening": "18 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/harrison-street"
   }
 }
