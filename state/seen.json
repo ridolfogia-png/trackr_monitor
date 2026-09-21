@@ -1654,5 +1654,21 @@
     "opening": "18 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/harrison-street"
+  },
+  "[\"capstone\", \"summer 2027 - investment internship\"]": {
+    "category": "Buy-Side",
+    "company": "Capstone",
+    "programme": "Summer 2027 - Investment Internship",
+    "opening": "21 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/capstone"
+  },
+  "[\"affinius capital\", \"2027 summer credit investments intern\"]": {
+    "category": "Buy-Side",
+    "company": "Affinius Capital",
+    "programme": "2027 Summer Credit Investments Intern",
+    "opening": "21 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/affinius-capital"
   }
 }
