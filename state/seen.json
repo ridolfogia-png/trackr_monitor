@@ -1670,5 +1670,13 @@
     "opening": "21 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/affinius-capital"
+  },
+  "[\"cibc\", \"summer intern 2027\\n4\"]": {
+    "category": "Middle Market",
+    "company": "CIBC",
+    "programme": "Summer Intern 2027\n4",
+    "opening": "21 Sep 26",
+    "closing": "05 Oct 26",
+    "link": "https://app.the-trackr.com/company/cibc"
   }
 }
