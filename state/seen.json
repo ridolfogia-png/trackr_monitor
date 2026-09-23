@@ -172,7 +172,7 @@
     "company": "Lazard",
     "programme": "2027 Summer Internship",
     "opening": "09 Sep 26",
-    "closing": "21 Sep 26",
+    "closing": "",
     "link": "https://app.the-trackr.com/company/lazard"
   },
   "[\"bnp paribas\", \"2027 summer internship programme\"]": {
@@ -1678,5 +1678,13 @@
     "opening": "21 Sep 26",
     "closing": "05 Oct 26",
     "link": "https://app.the-trackr.com/company/cibc"
+  },
+  "[\"campbell lutyens\", \"summer interns 2027\"]": {
+    "category": "Middle Market",
+    "company": "Campbell Lutyens",
+    "programme": "Summer Interns 2027",
+    "opening": "23 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/campbell-lutyens"
   }
 }
