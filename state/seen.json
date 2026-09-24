@@ -1694,5 +1694,21 @@
     "opening": "23 Sep 26",
     "closing": "02 Oct 26",
     "link": "https://app.the-trackr.com/company/moelis-co"
+  },
+  "[\"citi\", \"summer analyst 2027\\n7\"]": {
+    "category": "Bulge Bracket",
+    "company": "Citi",
+    "programme": "Summer Analyst 2027\n7",
+    "opening": "24 Sep 26",
+    "closing": "06 Nov 26",
+    "link": "https://app.the-trackr.com/company/citi"
+  },
+  "[\"brevan howard\", \"2027 summer internship program\\n2\"]": {
+    "category": "Buy-Side",
+    "company": "Brevan Howard",
+    "programme": "2027 Summer Internship Program\n2",
+    "opening": "24 Sep 26",
+    "closing": "30 Apr 27",
+    "link": "https://app.the-trackr.com/company/brevan-howard"
   }
 }
