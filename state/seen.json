@@ -1484,7 +1484,7 @@
     "company": "Deutsche Bank",
     "programme": "Internship Programme 2027\n4",
     "opening": "07 Sep 26",
-    "closing": "30 Oct 26",
+    "closing": "",
     "link": "https://app.the-trackr.com/company/deutsche-bank"
   },
   "[\"mufg\", \"2027 summer analyst programme\\n4\"]": {
@@ -1548,7 +1548,7 @@
     "company": "Houlihan Lokey",
     "programme": "Summer Financial Analyst 2027\n3",
     "opening": "07 Sep 26",
-    "closing": "17 Oct 26",
+    "closing": "",
     "link": "https://app.the-trackr.com/company/houlihan-lokey"
   },
   "[\"citi\", \"summer analyst 2027\\n4\"]": {
@@ -1700,7 +1700,7 @@
     "company": "Citi",
     "programme": "Summer Analyst 2027\n7",
     "opening": "24 Sep 26",
-    "closing": "06 Nov 26",
+    "closing": "",
     "link": "https://app.the-trackr.com/company/citi"
   },
   "[\"brevan howard\", \"2027 summer internship program\\n2\"]": {
