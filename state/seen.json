@@ -1734,5 +1734,21 @@
     "opening": "29 Sep 26",
     "closing": "31 Oct 26",
     "link": "https://app.the-trackr.com/company/longspur-capital"
+  },
+  "[\"balyasny asset management\", \"quantitative researcher - quantitative strategies (summer internship)\"]": {
+    "category": "Buy-Side",
+    "company": "Balyasny Asset Management",
+    "programme": "Quantitative Researcher - Quantitative Strategies (Summer Internship)",
+    "opening": "29 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/balyasny-asset-management"
+  },
+  "[\"verition fund management\", \"2027 investment internship\"]": {
+    "category": "Buy-Side",
+    "company": "Verition Fund Management",
+    "programme": "2027 Investment Internship",
+    "opening": "29 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/verition-fund-management"
   }
 }
