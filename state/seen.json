@@ -1750,5 +1750,21 @@
     "opening": "29 Sep 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/verition-fund-management"
+  },
+  "[\"hsbc\", \"summer internship 2027\\n10\"]": {
+    "category": "Middle Market",
+    "company": "HSBC",
+    "programme": "Summer Internship 2027\n10",
+    "opening": "01 Oct 26",
+    "closing": "01 Nov 26",
+    "link": "https://app.the-trackr.com/company/hsbc"
+  },
+  "[\"capstone\", \"summer 2027 - investment internship\\n2\"]": {
+    "category": "Buy-Side",
+    "company": "Capstone",
+    "programme": "Summer 2027 - Investment Internship\n2",
+    "opening": "01 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/capstone"
   }
 }
