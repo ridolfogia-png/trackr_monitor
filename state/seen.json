@@ -1766,5 +1766,21 @@
     "opening": "01 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/capstone"
+  },
+  "[\"standard bank\", \"intern, corporate & investment banking, international\"]": {
+    "category": "Middle Market",
+    "company": "Standard Bank",
+    "programme": "Intern, Corporate & Investment Banking, International",
+    "opening": "02 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/standard-bank"
+  },
+  "[\"squarepoint capital\", \"2027 summer internship programme\\n2\"]": {
+    "category": "Buy-Side",
+    "company": "Squarepoint Capital",
+    "programme": "2027 Summer Internship Programme\n2",
+    "opening": "02 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/squarepoint-capital"
   }
 }
