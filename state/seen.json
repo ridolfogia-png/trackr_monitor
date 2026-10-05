@@ -395,7 +395,7 @@
     "category": "Middle Market",
     "company": "Peel Hunt",
     "programme": "Investment Banking Internship 2027",
-    "opening": "",
+    "opening": "05 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/peel-hunt"
   },
@@ -451,8 +451,8 @@
     "category": "Middle Market",
     "company": "Investec",
     "programme": "Summer Internship 2027",
-    "opening": "",
-    "closing": "",
+    "opening": "05 Oct 26",
+    "closing": "06 Oct 26",
     "link": "https://app.the-trackr.com/company/investec"
   },
   "[\"natwest markets\", \"front office - internship\"]": {
@@ -1806,5 +1806,21 @@
     "opening": "04 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/schonfeld"
+  },
+  "[\"scotiabank\", \"2027 summer internship\"]": {
+    "category": "Middle Market",
+    "company": "Scotiabank",
+    "programme": "2027 Summer Internship",
+    "opening": "05 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/scotiabank"
+  },
+  "[\"equiteq\", \"investment banking summer intern 2027 - m&a\"]": {
+    "category": "Middle Market",
+    "company": "Equiteq",
+    "programme": "Investment Banking Summer Intern 2027 - M&A",
+    "opening": "05 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/equiteq"
   }
 }
