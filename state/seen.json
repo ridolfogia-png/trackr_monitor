@@ -1798,5 +1798,13 @@
     "opening": "01 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/citi"
+  },
+  "[\"schonfeld\", \"2027 summer intern\\n3\"]": {
+    "category": "Buy-Side",
+    "company": "Schonfeld",
+    "programme": "2027 Summer Intern\n3",
+    "opening": "04 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/schonfeld"
   }
 }
