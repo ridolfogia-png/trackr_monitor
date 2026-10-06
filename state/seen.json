@@ -1838,5 +1838,21 @@
     "opening": "06 Oct 26",
     "closing": "18 Oct 26",
     "link": "https://app.the-trackr.com/company/oxford-properties-group"
+  },
+  "[\"deutsche bank\", \"internship programme 2027\\n6\"]": {
+    "category": "Bulge Bracket",
+    "company": "Deutsche Bank",
+    "programme": "Internship Programme 2027\n6",
+    "opening": "06 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/deutsche-bank"
+  },
+  "[\"kroll\", \"mergers & acquisitions intern\"]": {
+    "category": "Middle Market",
+    "company": "Kroll",
+    "programme": "Mergers & Acquisitions Intern",
+    "opening": "06 Oct 26",
+    "closing": "05 Oct 26",
+    "link": "https://app.the-trackr.com/company/kroll"
   }
 }
