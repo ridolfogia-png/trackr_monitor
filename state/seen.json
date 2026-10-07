@@ -1668,7 +1668,7 @@
     "company": "Affinius Capital",
     "programme": "2027 Summer Credit Investments Intern",
     "opening": "21 Sep 26",
-    "closing": "",
+    "closing": "05 Oct 26",
     "link": "https://app.the-trackr.com/company/affinius-capital"
   },
   "[\"cibc\", \"summer intern 2027\\n4\"]": {
@@ -1854,5 +1854,13 @@
     "opening": "06 Oct 26",
     "closing": "05 Oct 26",
     "link": "https://app.the-trackr.com/company/kroll"
+  },
+  "[\"morgan stanley\", \"2027 summer analyst programme\\n8\"]": {
+    "category": "Bulge Bracket",
+    "company": "Morgan Stanley",
+    "programme": "2027 Summer Analyst Programme\n8",
+    "opening": "06 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/morgan-stanley"
   }
 }
