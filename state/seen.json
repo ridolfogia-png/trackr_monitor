@@ -1862,5 +1862,29 @@
     "opening": "06 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/morgan-stanley"
+  },
+  "[\"bmo capital markets\", \"2027 investment banking summer intern\"]": {
+    "category": "Middle Market",
+    "company": "BMO Capital Markets",
+    "programme": "2027 Investment Banking Summer Intern",
+    "opening": "08 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/bmo-capital-markets"
+  },
+  "[\"verition fund management\", \"2027 investment internship\\n2\"]": {
+    "category": "Buy-Side",
+    "company": "Verition Fund Management",
+    "programme": "2027 Investment Internship\n2",
+    "opening": "08 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/verition-fund-management"
+  },
+  "[\"harrison street\", \"summer 2027 intern\\n3\"]": {
+    "category": "Buy-Side",
+    "company": "Harrison Street",
+    "programme": "Summer 2027 Intern\n3",
+    "opening": "08 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/harrison-street"
   }
 }
