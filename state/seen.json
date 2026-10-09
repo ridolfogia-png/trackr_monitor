@@ -1886,5 +1886,21 @@
     "opening": "08 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/harrison-street"
+  },
+  "[\"morgan stanley\", \"2027 summer analyst programme\\n9\"]": {
+    "category": "Bulge Bracket",
+    "company": "Morgan Stanley",
+    "programme": "2027 Summer Analyst Programme\n9",
+    "opening": "08 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/morgan-stanley"
+  },
+  "[\"collingwood\", \"m&a deal team intern – summer 2027\"]": {
+    "category": "Middle Market",
+    "company": "Collingwood",
+    "programme": "M&A Deal Team Intern – Summer 2027",
+    "opening": "08 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/collingwood"
   }
 }
