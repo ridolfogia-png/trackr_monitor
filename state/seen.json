@@ -140,7 +140,7 @@
     "company": "Greenhill",
     "programme": "2027 Summer Internship",
     "opening": "31 Aug 26",
-    "closing": "",
+    "closing": "11 Oct 26",
     "link": "https://app.the-trackr.com/company/greenhill"
   },
   "[\"raine group\", \"2027 summer analyst\"]": {
@@ -172,7 +172,7 @@
     "company": "Lazard",
     "programme": "2027 Summer Internship",
     "opening": "09 Sep 26",
-    "closing": "",
+    "closing": "11 Oct 26",
     "link": "https://app.the-trackr.com/company/lazard"
   },
   "[\"bnp paribas\", \"2027 summer internship programme\"]": {
@@ -188,7 +188,7 @@
     "company": "Fenchurch Advisory",
     "programme": "2027 Summer Internship Programme",
     "opening": "31 Aug 26",
-    "closing": "",
+    "closing": "11 Oct 26",
     "link": "https://app.the-trackr.com/company/fenchurch-advisory"
   },
   "[\"campbell lutyens\", \"summer analysts 2027\"]": {
@@ -1348,7 +1348,7 @@
     "company": "UBS",
     "programme": "2027 Summer Internship",
     "opening": "17 Aug 26",
-    "closing": "",
+    "closing": "11 Oct 26",
     "link": "https://app.the-trackr.com/company/ubs"
   },
   "[\"standard chartered\", \"internship programme 2027\"]": {
@@ -1444,7 +1444,7 @@
     "company": "Evercore",
     "programme": "Summer Internship (2027)\n6",
     "opening": "01 Sep 26",
-    "closing": "",
+    "closing": "11 Oct 26",
     "link": "https://app.the-trackr.com/company/evercore"
   },
   "[\"citi\", \"summer analyst 2027\\n2\"]": {
@@ -1684,7 +1684,7 @@
     "company": "Campbell Lutyens",
     "programme": "Summer Interns 2027",
     "opening": "23 Sep 26",
-    "closing": "",
+    "closing": "11 Oct 26",
     "link": "https://app.the-trackr.com/company/campbell-lutyens"
   },
   "[\"moelis & co\", \"2027 summer analyst, investment banking\\n2\"]": {
@@ -1918,5 +1918,21 @@
     "opening": "10 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/kr8-advisory"
+  },
+  "[\"amplifyme\", \"market & banking finance accelerator\"]": {
+    "category": "Promoted",
+    "company": "AmplifyME",
+    "programme": "Market & Banking Finance Accelerator",
+    "opening": "10 Sep 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/amplifyme"
+  },
+  "[\"morgan stanley\", \"2027 summer analyst programme\\n11\"]": {
+    "category": "Bulge Bracket",
+    "company": "Morgan Stanley",
+    "programme": "2027 Summer Analyst Programme\n11",
+    "opening": "12 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/morgan-stanley"
   }
 }
