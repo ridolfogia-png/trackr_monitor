@@ -1966,5 +1966,13 @@
     "opening": "16 Oct 26",
     "closing": "16 Oct 26",
     "link": "https://app.the-trackr.com/company/orchard-global"
+  },
+  "[\"citi\", \"summer analyst 2027\\n10\"]": {
+    "category": "Bulge Bracket",
+    "company": "Citi",
+    "programme": "Summer Analyst 2027\n10",
+    "opening": "19 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/citi"
   }
 }
