@@ -1724,7 +1724,7 @@
     "company": "NatWest Markets",
     "programme": "Front Office - Internship\n6",
     "opening": "28 Sep 26",
-    "closing": "06 Oct 26",
+    "closing": "",
     "link": "https://app.the-trackr.com/company/natwest-markets"
   },
   "[\"longspur capital\", \"2027 summer intern, corporate finance\"]": {
@@ -1998,5 +1998,13 @@
     "opening": "27 Oct 26",
     "closing": "",
     "link": "https://app.the-trackr.com/company/tudor-group"
+  },
+  "[\"eqt\", \"summer analyst programme 2027 – real estate\"]": {
+    "category": "Buy-Side",
+    "company": "EQT",
+    "programme": "Summer Analyst Programme 2027 – Real Estate",
+    "opening": "28 Oct 26",
+    "closing": "",
+    "link": "https://app.the-trackr.com/company/eqt"
   }
 }
