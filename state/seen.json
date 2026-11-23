@@ -1724,7 +1724,7 @@
     "company": "NatWest Markets",
     "programme": "Front Office - Internship\n6",
     "opening": "28 Sep 26",
-    "closing": "18 Nov 26",
+    "closing": "",
     "link": "https://app.the-trackr.com/company/natwest-markets"
   },
   "[\"longspur capital\", \"2027 summer intern, corporate finance\"]": {
@@ -2014,5 +2014,13 @@
     "opening": "03 Nov 26",
     "closing": "08 Nov 26",
     "link": "https://app.the-trackr.com/company/bbva"
+  },
+  "[\"bmo capital markets\", \"2027 summer analyst\\n2\"]": {
+    "category": "Middle Market",
+    "company": "BMO Capital Markets",
+    "programme": "2027 Summer Analyst\n2",
+    "opening": "23 Nov 26",
+    "closing": "25 Nov 26",
+    "link": "https://app.the-trackr.com/company/bmo-capital-markets"
   }
 }
